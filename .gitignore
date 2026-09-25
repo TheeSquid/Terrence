@@ -1,0 +1,48 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+.kotlin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Signing / credentials — NEVER COMMIT
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Secrets / environment
+.env
+.env.*
+secrets.properties
+google-services.json
+
+# Generated packages and artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Logs / temp
+*.log
+*.tmp
+*.swp
